@@ -6,6 +6,18 @@ By Pashov Audit
 
 https://www.pashov.com/
 
+--
+  An attacker drained ~$10.86M from the YieldBlox DAO Pool on Blend V2 (Stellar) by manipulating the SDEX price of USTRY (Etherfuse US Treasury stablebond).                                                                                                                                                                                                         
+  The USTRY/XLM order book had <5 USTRY depth on the ask side — a few trades inflated the price 100x ($1.06 → $106.74).                                                                                                    
+
+  The Reflector oracle, which sources prices from SDEX, ingested the manipulated price. The Oracle Adapter passed it through to the lending pool without any robust aggregation or deviation check.
+
+  The attacker used the inflated USTRY collateral valuation to borrow ~61.25M XLM + ~1M USDC — backed by collateral worth only ~$158K at real prices.
+
+  Root cause: illiquid SDEX order book used as sole oracle price source, with no liquidity threshold or circuit breaker.
+
+--
+
 ## Postmortem
 
 **Date:** June 22, 2025 ~00:25 UTC
