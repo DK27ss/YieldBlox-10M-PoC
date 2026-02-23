@@ -234,4 +234,4 @@ TX2 (XLM):  REJECTED — Error(Contract, #1206)
 
 Error #1206 - **insufficient health factor**, the exploit is no longer reproducible because the SDEX oracle is no longer manipulated, this confirms the exploit was entirely dependent on the oracle price manipulation
 
-Copyright (c) 2026, DK27ss, Pashov Audit Group
+*Copyright (c) 2026, DK27ss, Pashov Audit Group*
