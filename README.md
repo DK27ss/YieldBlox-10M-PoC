@@ -9,9 +9,13 @@ https://www.pashov.com/
 ## Postmortem
 
 **Date:** June 22, 2025 ~00:25 UTC
+
 **Chain:** Stellar
+
 **Protocol:** Blend V2 — YieldBlox DAO Pool
+
 **Impact:** ~$10.86M drained (~61.25M XLM + ~1M USDC)
+
 **Root cause:** SDEX price manipulation of an illiquid collateral asset (USTRY) feeding into the Reflector oracle
 
 
