@@ -214,7 +214,9 @@ After TX2 (XLM borrow):
 ```
 
 **Real value of attacker collateral:** ~$158,482 (149,876 USTRY at $1.06)
+
 **Total borrowed value** ~$10,857,337
+
 **Effective collateral ratio** 1.46% (vs required >100%)
 
 ---
