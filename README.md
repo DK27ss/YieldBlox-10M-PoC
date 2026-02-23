@@ -6,11 +6,6 @@ By Pashov Audit
 
 https://www.pashov.com/
 
---
-~$10.86M drained from Blend V2 YieldBlox pool on Stellar. Attacker manipulated the USTRY/XLM price on SDEX (<5 USTRY depth on ask side), poisoning the Reflector oracle ~100x ($1.06→$106.74). Borrowed ~61M XLM + ~1M   
-  USDC against worthless collateral. Root cause: illiquid SDEX as sole oracle source, no circuit breaker.
---
-
 ## Postmortem
 
 **Date:** June 22, 2025 ~00:25 UTC
