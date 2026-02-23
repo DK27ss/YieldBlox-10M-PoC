@@ -1,6 +1,6 @@
 # YieldBlox-10M-PoC - SDEX Oracle Manipulation Exploit
 
-**Date:** June 22, 2025 ~00:25 UTC
+**Date:** June 22, 2026 ~00:25 UTC
 
 **Chain:** Stellar
 
