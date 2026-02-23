@@ -217,8 +217,6 @@ After TX2 (XLM borrow):
 
 **Total borrowed value** ~$10,857,337
 
-**Effective collateral ratio** 1.46% (vs required >100%)
-
 ---
 
 // Post-Exploit
