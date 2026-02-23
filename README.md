@@ -217,6 +217,8 @@ After TX2 (XLM borrow):
 
 **Total borrowed value** ~$10,857,337
 
+<img width="872" height="218" alt="image" src="https://github.com/user-attachments/assets/3ca97846-6587-4626-959f-e49db51c22ff" />
+
 ---
 
 // Post-Exploit
